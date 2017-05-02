@@ -17,5 +17,6 @@
       Mohan Kumar
   </author>
   <platform name="android" />
+  <icon src="img/dog.png"/>
 
 </widget>
