@@ -36,20 +36,33 @@ body{
 }
 
 #content div {
-    height: 101px;
-    width: 100%;
-    border: darkblue;
+        height: 100px;
+    /* width: 100%; */
+    /* border: darkblue; */
     position: relative;
+    /* padding-bottom: 2px; */
+    /* color: black; */
+    /* border-bottom: blue; */
+    /* padding-bottom: 17px; */
+    box-shadow: azure;
+    /* box-shadow: 0px 1px 0px 0px white; */
+    /* -webkit-box-decoration-break: clone; */
+    /* border: 1px seashell; */
+    border-radius: 11px;
+    overflow: hidden;
+    background-color: rgb(243, 241, 241);
+    margin-bottom: 1mm;
 }
 
 #content div span{
  display:block;
+ padding: 6px;
 }
 
 #content div .dleft{
     height: 100px;
     width: 59%;
-	color: #FF9165;
+	color: #4a4a4a;
     position: relative;
 	float:left;
 }
@@ -130,3 +143,5 @@ body{
     height:100px;
     float:right;
 }
+
+
