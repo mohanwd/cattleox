@@ -117,3 +117,9 @@ body{
     position: relative;
 
 }
+
+#filtericon img{
+    height: 81%;
+    padding: 1%;
+    float: right;
+}
