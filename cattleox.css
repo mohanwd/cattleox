@@ -31,7 +31,7 @@ body{
     /*height: 50px;*/
     width: 100%;
     position: fixed;
-	bottom:0px;
+	/*bottom:0px;*/
 	opacity:0.5;
 }
 
@@ -55,7 +55,7 @@ body{
 }
 #content div .dright{
     height: 100px;
-	background-color:#565A56;
+	/*background-color:#565A56;*/
     width: 40%;
     position: relative;
 	float:right;
@@ -123,4 +123,10 @@ body{
     height: 75%;
     padding: 1%;
     float: right;
+}
+
+.dright img{
+
+    height:100px;
+    float:right;
 }
