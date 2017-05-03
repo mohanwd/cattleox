@@ -27,10 +27,14 @@ $(function(){
       });
 	  
 	  $("#content div").click(function(){
+		$("#top,#bottom").css("z-index", "-100");
+		$("#top,#bottom").css("opacity", "0");
 			$("#vcontent").fadeIn();
 		});
 		$(".closeme").click(function(){
 			$("#vcontent").fadeOut();
+			$("#top,#bottom").css("z-index", "1");
+			$("#top,#bottom").css("opacity", "0.5");
 		});
     });
 	
