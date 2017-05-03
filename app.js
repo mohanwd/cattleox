@@ -1,23 +1,3 @@
-/*$(window).bind('mousewheel', function(event) {
-if (event.originalEvent.wheelDelta >= 0) {
-    $( "#bottom" ).slideDown( "slow", function() {
-    // Animation complete.
-  });
-	$( "#top" ).slideDown( "slow", function() {
-    // Animation complete.
-  });
-}
-else {
-    $( "#bottom" ).slideUp( "slow", function() {
-    // Animation complete.
-  });
-	$( "#top" ).slideUp( "slow", function() {
-    // Animation complete.
-  });
-}
-});*/
-
-
 $(function(){
       //Keep track of last scroll
       var lastScroll = 0;
@@ -27,22 +7,30 @@ $(function(){
           //Determines up-or-down scrolling
           if (st > lastScroll){
              //Replace this with your function call for downward-scrolling
-             $( "#bottom" ).slideUp( "slow", function() {
+             $( "#bottom" ).slideUp( "fast", function() {
 				// Animation complete.
 			  });
-				$( "#top" ).slideUp( "slow", function() {
+				$( "#top" ).slideUp( "fast", function() {
 				// Animation complete.
 			  });
           }
           else {
-             $( "#bottom" ).slideDown( "slow", function() {
+             $( "#bottom" ).slideDown( "fast", function() {
 				// Animation complete.
 			  });
-				$( "#top" ).slideDown( "slow", function() {
+				$( "#top" ).slideDown( "fast", function() {
 				// Animation complete.
 			  });
           }
           //Updates scroll position
           lastScroll = st;
       });
+	  
+	  $("#content div").click(function(){
+			$("#vcontent").fadeIn();
+		});
+		$(".closeme").click(function(){
+			$("#vcontent").fadeOut();
+		});
     });
+	
