@@ -13,6 +13,9 @@ $(function(){
 				$( "#top" ).slideUp( "fast", function() {
 				// Animation complete.
 			  });
+				/*$("#dummydiv").slideUp( "fast", function() {
+				// Animation complete.
+			  });*/
           }
           else {
              $( "#bottom" ).slideDown( "fast", function() {
@@ -21,6 +24,9 @@ $(function(){
 				$( "#top" ).slideDown( "fast", function() {
 				// Animation complete.
 			  });
+				/*$("#dummydiv").slideDown( "fast", function() {
+				// Animation complete.
+			  });*/
           }
           //Updates scroll position
           lastScroll = st;

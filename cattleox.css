@@ -86,6 +86,7 @@ body{
     width: 50%;
     position: relative;
     cursor: pointer;
+    background-color:#FF9165;
 
 }
 
@@ -94,7 +95,7 @@ body{
     width: 50%;
     position: relative;
     cursor: pointer;
-	background-color:white;
+	background-color:#FF9165;
 }
 
 
@@ -119,7 +120,7 @@ body{
 }
 
 #filtericon img{
-    height: 81%;
+    height: 75%;
     padding: 1%;
     float: right;
 }
