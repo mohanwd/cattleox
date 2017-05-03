@@ -6,6 +6,8 @@
     <title>Cattle OX</title>
 	<style>
 #top,#bottom { height: 10%;}
+.left,.right { height: 100%;}
+#vcontent {height:70%;}
 </style>
     <link rel="stylesheet" href="cattleox.css"/>
 	<script src="jquery-1.10.2.js"></script>
@@ -18,7 +20,8 @@
     <div id="top">
 		<span class="left">
 		</span>
-		<span class="right">
+		<span class="right" id="filtericon">
+		Filter
 		</span>
     </div>
     <div id="content">
@@ -146,6 +149,12 @@
 		<span class="right">
 		</span>
     </div>
-
+	<div id="vcontent">
+			<span class="closeme">X</span>
+		<div id="mcontent">
+			<div id="imgcontent"></div>
+			<div id="thycontent"></div>
+		</div>
+	</div>
 </body>
 </html>
