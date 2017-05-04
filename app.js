@@ -43,5 +43,18 @@ $(function(){
 			$("#top,#bottom").css("opacity", "0.5");
 		});
 		$("#dummydiv").css("height",$( "#top" ).height());
+		
+		
+		
+
     });
+		window.onpopstate = function() {
+		/*$('.view-overlay').empty().append('<div class="view-close">x</div>').hide();
+		$('html,body').css("overflow","auto");
+		window.history.pushState('page1', "previous title", "previous url");
+		document.title = "previous title";*/
+		
+		alert("back button");
+		}
 	
+
