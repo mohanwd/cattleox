@@ -42,5 +42,6 @@ $(function(){
 			$("#top,#bottom").css("z-index", "1");
 			$("#top,#bottom").css("opacity", "0.5");
 		});
+		$("#dummydiv").css("height",$( "#top" ).height());
     });
 	
